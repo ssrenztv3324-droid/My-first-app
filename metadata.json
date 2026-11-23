@@ -1,0 +1,6 @@
+{
+  "name": "VaultRec",
+  "description": "Silent OLED-blackout screen recorder with 2-hour cycle rotation, motion detection, automatic Google Drive upload, and instant local file purge for 32GB devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

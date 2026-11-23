@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VaultRec</string>
+
+    <!-- Navigation -->
+    <string name="nav_control">บันทึก</string>
+    <string name="nav_queue">คิวอัปโหลด</string>
+    <string name="nav_settings">ตั้งค่า</string>
+
+    <!-- Notification (Stealth Minimal) -->
+    <string name="notif_channel_name">System Background Sync</string>
+    <string name="notif_channel_desc">Minimal background service indicator required by Android OS</string>
+    <string name="notif_default_title">Sync Active</string>
+    <string name="notif_default_text">Background service running</string>
+
+    <!-- Control Screen -->
+    <string name="app_tagline">บันทึกหน้าจอ 2 ชม. • อัปโหลด Drive • ลบทิ้งอัตโนมัติ</string>
+    <string name="mode_continuous_title">อัดต่อเนื่อง (ตัดรอบ 2 ชม.)</string>
+    <string name="mode_continuous_desc">บันทึกหน้าจอตลอดเวลา ตัดไฟล์ทุกๆ 2 ชั่วโมงแล้วอัปโหลดขึ้น Drive</string>
+    <string name="mode_motion_title">จับภาพเคลื่อนไหว</string>
+    <string name="mode_motion_desc">ไม่เปลืองพื้นที่ 32GB • อัดคลิปเฉพาะเมื่อหน้าจอมีการเปลี่ยนแปลง</string>
+    <string name="mode_camera_bg">กล้องเงียบ (CameraX)</string>
+    <string name="action_start_recording">เริ่มบันทึกหน้าจอ</string>
+    <string name="action_stop_recording">หยุดบันทึก</string>
+    <string name="action_blackout_now">เข้าสู่โหมดดับหน้าจอ (OLED)</string>
+    <string name="status_idle">พร้อมบันทึก</string>
+    <string name="status_recording">กำลังบันทึกหน้าจอ</string>
+    <string name="status_motion_armed">กำลังเฝ้าจับความเคลื่อนไหว</string>
+    <string name="status_motion_recording">พบความเคลื่อนไหว • กำลังอัดคลิป</string>
+
+    <!-- Blackout Overlay -->
+    <string name="blackout_hint">กดค้างเพื่อปลดล็อก</string>
+    <string name="blackout_recording_label">กำลังทำงาน</string>
+    <string name="pin_unlock_title">ใส่รหัส PIN เพื่อออกจากโหมดมืด</string>
+    <string name="pin_setup_title">ตั้งรหัส PIN สำหรับปลดล็อก</string>
+    <string name="pin_setup_subtitle">ใช้รหัส 4 หลักสำหรับปลดล็อกออกจากหน้าจอดำสนิท</string>
+
+    <!-- Google Drive -->
+    <string name="drive_section_title">Google Drive อัตโนมัติ</string>
+    <string name="drive_connect">ลงชื่อเข้าใช้ Google Drive</string>
+    <string name="drive_sign_out">ลงชื่อออก</string>
+    <string name="drive_reconnect">เปลี่ยนบัญชี / ซิงก์ใหม่</string>
+    <string name="drive_connected_badge">ซิงก์พื้นที่แล้ว</string>
+    <string name="drive_disconnected_badge">ยังไม่ลงชื่อเข้าใช้</string>
+    <string name="drive_folder_label">โฟลเดอร์ปลายทาง: VaultRec_Recordings</string>
+
+    <!-- Storage Guard -->
+    <string name="storage_guard_title">ตัวป้องกันพื้นที่เต็ม (32GB Guard)</string>
+    <string name="storage_purge_active">ลบไฟล์ในเครื่องทันทีหลังอัปโหลดสำเร็จ</string>
+
+    <!-- Queue Screen -->
+    <string name="queue_empty_title">ยังไม่มีประวัติการบันทึก</string>
+    <string name="queue_empty_subtitle">เมื่อครบ 2 ชั่วโมงหรือตรวจจับความเคลื่อนไหว ไฟล์จะถูกอัปโหลดขึ้น Google Drive และลบออกจากเครื่องทันที</string>
+    <string name="action_retry_upload">อัปโหลดอีกครั้ง</string>
+    <string name="action_purge_now">ลบไฟล์ในเครื่องทันที</string>
+
+    <!-- Settings & OS Info -->
+    <string name="os_notice_title">ข้อจำกัดระบบปฏิบัติการ Android</string>
+    <string name="os_notice_body">1. Android 14/15 บังคับแสดงไอคอนสถานะเงียบขณะบันทึกหน้าจอเพื่อความปลอดภัย (แอปตั้งค่าเป็นระดับเงียบสุด ไม่เด้ง ไม่สั่น และไม่แจ้งเตือนการอัปโหลด)\n2. การกดปุ่ม Power ล็อกหน้าจอบน Android 15+ จะหยุดการอัดหน้าจออัตโนมัติ จึงควรใช้ \"โหมดดับหน้าจอ OLED\" เพื่อปิดพิกเซลหน้าจอให้มืดสนิทโดยไม่ล็อกเครื่อง</string>
+</resources>
